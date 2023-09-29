@@ -2,7 +2,11 @@
 
 Lembre-se de criar uma maquina virtual usando python para trabalhar com esse projeto.
 
+Instalar VM:
 python -m venv nome-do-ambiente
+Acesso a VM:
+nome-do-ambiente\Scripts\activate
+
 
 
 O SQLite3 é um sistema de gerenciamento de banco de dados (SGBD) que tem suas vantagens e desvantagens, dependendo do contexto em que será usado. Abaixo estão algumas das principais vantagens e desvantagens de se usar o SQLite3:
