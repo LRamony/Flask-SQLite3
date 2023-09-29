@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo SQLite3 com Flask</title>
+</head>
+<body>
+    <h1>Exemplo SQLite3 com Flask</h1>
+    <form method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+        <label for="idade">Idade:</label>
+        <input type="text" name="cah" id="idade" required>
+        <button type="submit">Adicionar Nome</button>
+    </form>
+    <h2>Dados na Tabela:</h2>
+    <ul>
+        {% for pessoa in pessoas %}
+            <li>{{ pessoa[1], pessoa[2] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
