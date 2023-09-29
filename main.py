@@ -34,7 +34,7 @@ def adicionar_nome():
     if nome:
         conexao = sqlite3.connect('exemplo.db')
         cursor = conexao.cursor()
-        cursor.execute("INSERT INTO pessoas (nome, idade) VALUES (?, ?)", (nome, idade))
+        cursor.execute("INSERT INTO pessoas (nome, idade) VALUES (%s, %s)", (nome, idade))
         conexao.commit()
         conexao.close()
     return redirect('/')
