@@ -6,7 +6,7 @@ Instalar VM:
 python -m venv nome-do-ambiente
 
 Acesso a VM:
-nome-do-ambiente\Scripts\activate
+nome-do-ambiente\Scripts\activate.ps1
 
 
 
