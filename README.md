@@ -4,6 +4,7 @@ Lembre-se de criar uma maquina virtual usando python para trabalhar com esse pro
 
 Instalar VM:
 python -m venv nome-do-ambiente
+
 Acesso a VM:
 nome-do-ambiente\Scripts\activate
 
